@@ -1,0 +1,108 @@
+/* -----------------------------------
+              Glans.css
+        Penned by Kurtis Bradley
+------------------------------------*/
+
+
+/* -----------------------------------
+                Colors
+------------------------------------*/
+
+.pri-color{
+    $color: #C7412C;
+    $color-shadow: #B6341F;
+    $color-highlight: #C75442;
+    $color-txt: #ececec;
+
+    background-color: $color;
+    border: $color;
+    box-shadow: $color-shadow;
+    text-shadow: $color-highlight;
+    color: $color-txt;
+    
+    button:hover{
+        color: $color;
+    }
+}
+
+.sec-color{
+    $color: #457F2C;
+    $color-shadow: #38741E;
+    $color-highlight: #50853A;
+    $color-txt: #ececec;
+
+    background-color: $color;
+    border: $color;
+    box-shadow: $color-shadow;
+    text-shadow: $color-highlight;
+    color: $color-txt;
+
+    button:hover{
+        color: $color;
+    }
+}
+
+/* -----------------------------------
+            General Styles
+------------------------------------*/
+
+h1{
+    font-size: 2.3rem;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+h2{
+    font-size: 1.8rem;
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+}
+
+h3{
+    font-size: 1.5rem;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+h4{
+    font-size: 1.2rem;
+    margin-top: 1.3em;
+    margin-bottom: 1.3em;
+}
+
+h5{
+    font-size: 0.8rem;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+h6{
+    font-size: 0.5rem;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+p{
+
+}
+
+/* -----------------------------------
+                Buttons
+------------------------------------*/
+
+button{
+   border: 2px solid;
+
+   -webkit-transition: all .5s ease;
+   -moz-transition: all .5s ease;
+   -ms-transition: all .5s ease;
+   transition: all .5s ease;
+}
+
+button:hover{
+   background: none;
+}
+
+/* -----------------------------------
+                Lists
+------------------------------------*/
