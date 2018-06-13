@@ -1,0 +1,82 @@
+/* -----------------------------------
+              Glans.css
+        Penned by Kurtis Bradley
+------------------------------------*/
+
+
+/* -----------------------------------
+                Colors
+------------------------------------*/
+/*
+:root{
+    --color: #C7412C;
+    --color-shadow: #B6341F;
+    --color-highlight: #C75442;
+    --color-txt: #ececec;
+    $color: #457F2C;
+    $color-shadow: #38741E;
+    $color-highlight: #50853A;
+    $color-txt: #ececec;
+}
+*/
+
+.pri-color:root{
+    --color: #C7412C;
+    --color-shadow: #B6341F;
+    --color-highlight: #C75442;
+    --color-txt: #ececec;
+    background-color: var(--color);
+    border: var(--color);
+    box-shadow: var(--color-shadow);
+    text-shadow: var(color-highlight);
+    color: var(color-txt);
+}
+
+.pri-color.button:hover{
+    color: var(--color);
+}
+
+/*
+.sec-color{
+    background-color: $color;
+    border: $color;
+    box-shadow: $color-shadow;
+    text-shadow: $color-highlight;
+    color: $color-txt;
+
+    .button{
+        color: $color;
+    }
+
+    .button:hover{
+        color: $color;
+    }
+}
+*/
+
+/* -----------------------------------
+                Buttons
+------------------------------------*/
+
+.btn{
+    text-decoration: none;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.btn.border{
+    /*color: $color;*/
+    border: 2px solid;
+    border-radius: 0.55em;
+    box-shadow: 0px;
+    padding: 0.3em 0.7em 0.5em;
+}
+
+.btn.border:hover{
+    /*color: $color;*/
+    cursor: pointer;
+    background: none;
+    box-shadow: 1px 0px 1px, -1px 0px 1px, 0px 1px 1px, 0px -1px 1px;
+}
